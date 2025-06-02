@@ -9,7 +9,7 @@
             <Label Text="Mayra Vargas"
                    FontSize="32"
                    HorizontalOptions="Center"/>
-            <Image Source="sadf"
+            <Image Source="https://wallpapers.com/images/featured/imagenes-lindas-para-perfil-estetico-r521rmfa6ucixtw5.jpg"
                    HeightRequest="200"
                    WidthRequest="200"
                    HorizontalOptions="Center"/>

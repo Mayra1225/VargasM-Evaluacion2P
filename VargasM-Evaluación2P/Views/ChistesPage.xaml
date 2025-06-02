@@ -5,9 +5,8 @@
              Title="Pagina de Chistes">
     <AbsoluteLayout>
         <Label x:Name="lblChiste"
-               AbsoluteLayout.LayoutBounds="0.5,0.4,0.9,Autosize"
-               AbsoluteLayout.LayoutFlags="All"
-               HorizontalTextAlignment="Center"
+               AbsoluteLayout.LayoutBounds="0.5, 0.5, 100, AutoSize"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
                FontSize="18"/>
 
         <Button Text="Otro Chiste"

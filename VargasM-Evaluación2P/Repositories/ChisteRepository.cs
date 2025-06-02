@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace VargasM_Evaluación2P.Repositories
@@ -22,7 +23,7 @@ namespace VargasM_Evaluación2P.Repositories
             {
                 var url = "https://official-joke-api.appspot.com/random_joke";
                 var response = await _httpClient.GetStringAsync(url);
-                var chiste = System.Text.Json.JsonSerializer.Deserialize<Chiste>(response);
+                var chiste = JsonSerializer.Deserialize<Chiste>(response);
                 return chiste;
             }
                 catch (Exception ex)
