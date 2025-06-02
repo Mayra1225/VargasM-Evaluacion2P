@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VargasM_Evaluación2P.MainPage"
-             Title="Examen 2P">
+             Title="VM Examen 2P">
 
     <ScrollView>
         <StackLayout Padding="20" Spacing="20">
@@ -14,9 +14,11 @@
                    WidthRequest="200"
                    HorizontalOptions="Center"/>
             <Button Text="Ver Chiste"
-                    Clicked="OnChisteCLicked"/>
+                    Clicked="OnChisteCLicked"
+                    BackgroundColor="LightBlue"/>
             <Button Text="About"
-                    Clicked="OnAboutClicked"/>
+                    Clicked="OnAboutClicked"
+                    BackgroundColor="LightBlue"/>
         </StackLayout>
     </ScrollView>
 

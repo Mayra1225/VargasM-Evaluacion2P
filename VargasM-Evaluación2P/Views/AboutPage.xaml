@@ -2,22 +2,41 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VargasM_Evaluación2P.Views.AboutPage"
-             Title="AboutPage">
-    <Grid>
+             Title="About">
+    <Grid HorizontalOptions="Center" VerticalOptions="Center">
         <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition />
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="3"/>
+            <RowDefinition Height="150"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="3"/>
+            <ColumnDefinition Width="150"/>
         </Grid.ColumnDefinitions>
-        <Label Text="Nombre: Mayra Vargas" Grid.Row="0" Grid.Column="0" />
-
-        <Label Text="Nacimiento: 12/05/1974" Grid.Row="0" Grid.Column="1" />
-
-        <Label Text="Intereses: Programación, Tecnología" Grid.Row="2" Grid.Column="0" />
-
-        <Label Text="Versión: 1.0.0" Grid.Row="2" Grid.Column="1" />
+        <Frame Grid.Row="0" Grid.Column="0" >
+            <StackLayout>
+                <Label Text="Nombre:" />
+                <Label Text="Mayra Vargas" />
+            </StackLayout>
+        </Frame>
+        <Frame Grid.Row="0" Grid.Column="2">
+            <StackLayout>
+                <Label Text="Fecha:" />
+                <Label Text="12/05/1974" />
+            </StackLayout>
+        </Frame>
+        <Frame Grid.Row="2" Grid.Column="0" >
+            <StackLayout>
+                <Label Text="Intereses:" />
+                <Label Text="Programación, Tecnología" />
+            </StackLayout>
+        </Frame>
+        <Frame Grid.Row="2" Grid.Column="2" >
+            <StackLayout>
+                <Label Text="Version:" />
+                <Label Text="1.0.0" />
+            </StackLayout>
+        </Frame>
     </Grid>
 </ContentPage>

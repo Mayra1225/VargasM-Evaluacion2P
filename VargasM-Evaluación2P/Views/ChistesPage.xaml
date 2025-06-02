@@ -12,6 +12,7 @@
         <Button Text="Otro Chiste"
                 AbsoluteLayout.LayoutBounds="0.5,1,200,50"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
-                Clicked="OnOtroChisteClicked"/>
+                Clicked="OnOtroChisteClicked"
+                BackgroundColor="LightBlue"/>
     </AbsoluteLayout>
 </ContentPage>
