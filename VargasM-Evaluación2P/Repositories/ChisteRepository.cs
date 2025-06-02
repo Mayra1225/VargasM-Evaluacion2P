@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Metal;
 
 namespace VargasM_Evaluación2P.Repositories
 {
@@ -26,7 +25,7 @@ namespace VargasM_Evaluación2P.Repositories
                 var chiste = System.Text.Json.JsonSerializer.Deserialize<Chiste>(response);
                 return chiste;
             }
-            catch (Exception ex)
+                catch (Exception ex)
             {
                 return new Chiste
                 {

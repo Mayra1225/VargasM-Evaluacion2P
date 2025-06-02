@@ -15,8 +15,8 @@
                    HorizontalOptions="Center"/>
             <Button Text="Ver Chiste"
                     Clicked="OnChisteCLicked"/>
-            <Button Text="About"
-                    Clicked="OnAboutClicked"/>
+            <!--<Button Text="About"
+                    Clicked="OnAboutClicked"/>-->
         </StackLayout>
     </ScrollView>
 
